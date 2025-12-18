@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanders Leiva | Portfolio</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="glass-nav">
+        <nav class="container">
+            <div class="logo">
+                <h1>Sanders<span class="accent">.</span></h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <span class="greeting">Hello, I'm</span>
+                    <h1>Sanders Leiva</h1>
+                    <p class="role">System Engineer | Tracking Specialist | Web Developer</p>
+                    <p class="bio-short">I build accessible, pixel-perfect, and performant web experiences.</p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn btn-primary">View Work</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="blob"></div>
+                    <img src="assets/profile.jpg" alt="Sanders Leiva" class="profile-img">
+                </div>
+            </div>
+        </section>
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I am a passionate developer with a knack for creating visually stunning and user-friendly
+                            websites. My journey in tech is driven by a curiosity to learn and a desire to build things
+                            that make a difference.</p>
+                        <div class="skills">
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">UI/UX Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">featured Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="placeholder-img" style="background: linear-gradient(45deg, #FF6B6B, #556270);">
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>E-Commerce Platform</h3>
+                            <p>A modern shopping experience with cart and checkout functionality.</p>
+                            <div class="project-tags">
+                                <span>React</span>
+                                <span>Node</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+                                <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- Project 2 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="placeholder-img" style="background: linear-gradient(45deg, #4ECDC4, #556270);">
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Task Manager App</h3>
+                            <p>Productivity tool to organize daily tasks and workflows.</p>
+                            <div class="project-tags">
+                                <span>JS</span>
+                                <span>Firebase</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+                                <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- Project 3 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="placeholder-img" style="background: linear-gradient(45deg, #A8E6CF, #DCEDC1);">
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Portfolio V1</h3>
+                            <p>My first portfolio website exploring vibrant design.</p>
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+                                <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" required placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" required placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" required placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    <div class="contact-info">
+                        <div class="social-links">
+                            <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="mailto:email@example.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Sanders Leiva. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
